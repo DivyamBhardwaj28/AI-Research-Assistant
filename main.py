@@ -3,7 +3,7 @@ import os
 import tempfile
 
 from langchain_community.vectorstores import FAISS
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from utils_1.doc_loader import loadpdf, chunk_text
 from utils_1.Summarizer import summarize
 
